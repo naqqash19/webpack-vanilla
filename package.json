@@ -1,0 +1,23 @@
+{
+  "name": "webpack-vanilla",
+  "version": "0.0.1",
+  "description": "",
+  "scripts": {
+    "dev": "webpack serve --config ./webpack.dev.js",
+    "build": "webpack --config ./webpack.prod.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "@babel/core": "^7.18.2",
+    "@babel/preset-env": "^7.18.2",
+    "babel-loader": "^8.2.5",
+    "html-webpack-plugin": "^5.5.0",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2",
+    "webpack-dev-server": "^4.9.0",
+    "webpack-merge": "^5.8.0"
+  }
+}
